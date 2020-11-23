@@ -1,0 +1,70 @@
+{
+	"data": [{
+			"title": "设置喜好",
+			"list": [{
+					"title": "账号与安全",
+					"icon": "account",
+					"is_cache": false,
+					"path": "account"
+				},
+				{
+					"title": "隐私设置",
+					"icon": "lock",
+					"is_cache": false,
+					"path": ""
+				},
+				{
+					"title": "扫一扫",
+					"icon": "scan",
+					"is_cache": false,
+					"path": ""
+				},
+				{
+					"title": "邀请好友",
+					"icon": "man-add",
+					"is_cache": false,
+					"path": ""
+				}
+			]
+		},
+		{
+			"title": "关于",
+			"list": [{
+					"title": "用户协议",
+					"icon": "edit-pen",
+					"is_cache": false,
+					"path": ""
+				},
+				{
+					"title": "关于原创网",
+					"icon": "home",
+					"is_cache": false,
+					"path": ""
+				},
+				{
+					"title": "反馈与帮助",
+					"icon": "backspace",
+					"is_cache": false,
+					"path": ""
+				},
+				{
+					"title": "清理缓存",
+					"icon": "trash",
+					"is_cache": true,
+					"path": ""
+				}
+			]
+		},
+		{
+			"title": "",
+			"list": [{
+					"title": "退出登陆",
+					"icon": "integral-fill",
+					"is_cache": false,
+					"path": ""
+				}
+			]
+		}
+
+	]
+}

@@ -1,0 +1,263 @@
+{
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/home/index/index",
+      "style": {
+        "navigationStyle": "custom", // 隐藏系统导航栏 首页
+        "navigationBarTextStyle": "white", // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+        "enablePullDownRefresh": true,
+        "app-plus": {
+          "scrollIndicator": "none"
+        }
+      }
+    },
+    {
+      "path": "pages/home/video-detail/detail",
+      "style": {
+        "navigationBarTitleText": "视频详情"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "uni-app"
+      }
+    },
+    { //展馆首页
+      "path": "pages/museum/index/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/museum/detail/detail",
+      "style": {
+        "navigationBarTitleText": "展馆详情"
+      }
+    },
+    {
+      "path": "pages/copyright/index/index",
+      "style": {
+        "navigationStyle": "custom", // 版权首页
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/mine/center/center",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/mine/signed/index",
+      "style": {
+        "navigationBarTitleText": "每日签到"
+      }
+    },
+    {
+      "path": "pages/mine/setting/setting",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    },
+    {
+      "path": "pages/mine/account/index",
+      "style": {
+        "navigationBarTitleText": "帐号安全"
+      }
+    },
+    {
+      "path": "pages/mine/message/index",
+      "style": {
+        "navigationBarTitleText": "消息",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/search/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/layout/login/index",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    }, {
+      "path": "pages/mine/earnings/earnings",
+      "style": {
+        "navigationBarTitleText": "总收益",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "提现",
+              "fontSize": "14px"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/mine/withdraw/withdraw",
+      "style": {
+        "navigationBarTitleText": "提现"
+      }
+    }, {
+      "path": "pages/mine/tiger/tiger",
+      "style": {
+        "navigationBarTitleText": "虎宝",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "提现",
+              "fontSize": "14px"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/mine/social/social",
+      "style": {}
+    }, {
+      "path": "pages/mine/avatar/avatar",
+      "style": {
+        "navigationBarTitleText": "头像",
+        "navigationBarBackgroundColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "type": "menu",
+              "fontSize": "14px"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/mine/phone/modify",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    }, {
+      "path": "pages/mine/phone/confirm",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    }, {
+      "path": "pages/mine/thirdparty/thirdparty",
+      "style": {
+        "navigationBarTitleText": "第三方帐号绑定"
+      }
+    }, {
+      "path": "pages/mine/password/password",
+      "style": {
+        "navigationBarTitleText": ""
+      }
+    }, {
+      "path": "pages/mine/auth/person/step1",
+      "style": {
+        "navigationBarTitleText": "实名认证"
+      }
+    }, {
+      "path": "pages/mine/auth/person/step2",
+      "style": {
+        "navigationBarTitleText": "实名认证"
+      }
+    }, {
+      "path": "pages/mine/auth/enterprise/step1",
+      "style": {
+        "navigationBarTitleText": "企业实名认证"
+      }
+    }, {
+      "path": "pages/mine/auth/enterprise/step2",
+      "style": {
+        "navigationBarTitleText": "企业实名认证"
+      }
+    }, {
+      "path": "pages/mine/mobile/index",
+      "style": {
+        "enablePullDownRefresh": true,
+        "navigationBarTitleText": "移动馆",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "修改",
+              "fontSize": "14px"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/mine/issue/index",
+      "style": {
+        "enablePullDownRefresh": true,
+        "navigationBarTitleText": "我的发布"
+      }
+    }, {
+      "path": "pages/mine/exchange/index",
+      "style": {
+        "enablePullDownRefresh": true,
+        "navigationBarTitleText": "我的兑换",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+              "text": "兑换中心",
+              "fontSize": "14px"
+            }]
+          }
+        }
+      }
+    }, {
+      "path": "pages/home/index/pages/registeredMember",
+      "style": {
+        "navigationBarTitleText": "购买原创网会员"
+      }
+    }, {
+      "path": "pages/home/index/pages/publishMobilePavilion",
+      "style": {
+        "navigationBarTitleText": "编辑我的移动馆"
+      }
+    }
+  ],
+  "tabBar": { //底部栏框
+    "color": "#7A7E83",
+    "selectedColor": "#F23530",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [{
+        "pagePath": "pages/home/index/index",
+        "iconPath": "static/image/component.png",
+        "selectedIconPath": "static/image/componentHL.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/museum/index/index",
+        "iconPath": "static/image/api.png",
+        "selectedIconPath": "static/image/apiHL.png",
+        "text": "会馆"
+      }, {
+        "pagePath": "pages/copyright/index/index",
+        "iconPath": "static/image/extui.png",
+        "selectedIconPath": "static/image/extuiHL.png",
+        "text": "版权"
+      }, {
+        "pagePath": "pages/mine/center/center",
+        "iconPath": "static/image/extui.png",
+        "selectedIconPath": "static/image/extuiHL.png",
+        "text": "用户"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F23530",
+    "backgroundColor": "#F23530"
+  }
+}
